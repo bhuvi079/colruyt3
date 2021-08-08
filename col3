@@ -1,0 +1,8 @@
+ipv6_addr1 = "2001:db8:1234::1"
+IPV6_addr2 = "2001:db8:1234::2"
+ipV6_addr3 = "2001:db8:1234::3"
+
+print("")
+print("Is variable 1 equal to variable 2: {}".format(ipv6_addr1 == IPV6_addr2))
+print("Is variable 1 not equal to variable 3: {}".format(ipv6_addr1 != ipV6_addr3))
+print("")
